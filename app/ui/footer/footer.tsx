@@ -11,17 +11,10 @@ const Footer = () => {
           <Link href="/services"className="mx-2">Services</Link>
           <Link href="/contact"className="mx-2">Contact</Link>
         </div>
+        <SocialIcons />
         <div className="text-center mt-4">
             <p>Email: contact@yourbrand.com</p>
             <p>Telephone: +1 234 567 8900</p>
-        </div>
-        <SocialIcons />
-        <div className="mt-4 md:mt-0">
-          <p>Sign up for our newsletter:</p>
-          <form>
-            <input type="email" placeholder="Your email" className="text-black" />
-            <button type="submit" className="bg-blue-500 text-white p-1">Subscribe</button>
-          </form>
         </div>
       </div>
       <div className="text-center mt-4">
