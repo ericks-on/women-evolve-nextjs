@@ -18,7 +18,7 @@ const socialIcons = [
       href: "https://www.youtube.com",
     }
   ];
-export default function FooterIcons(){
+export default function SocialIcons(){
     return(
         <div
             className="flex gap-4 "

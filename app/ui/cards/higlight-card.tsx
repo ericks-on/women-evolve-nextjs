@@ -8,7 +8,7 @@ export default function HiglightCard ({src, heading, url}:{
 }) {
     return (
         <Link href={url}>
-            <div className="flex flex-col w-64 h-80 p-1 justify-center items-center">
+            <div className="flex flex-col w-64 h-80 p-1 justify-center items-center mx-auto">
                 <div className="h-4/5 w-full">
                     <Image
                         src={src}
