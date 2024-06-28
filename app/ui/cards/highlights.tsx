@@ -7,10 +7,10 @@ interface Highlight {
   }
   
 const highlights: Highlight[] = [
-    {"src":'/WE_Logo_CIRCLE_Black.png', "heading":'Some heading','url': '/'},
-    {"src":'/WE_Logo_CIRCLE_Black.png', "heading":'Some heading','url': '/'},
-    {"src":'/WE_Logo_CIRCLE_Black.png', "heading":'Some heading','url': '/'},
-    {"src":'/WE_Logo_CIRCLE_Black.png', "heading":'Some heading','url': '/'}
+    {"src":'/highlights/anna-dudkova-zuLKsbU-yfA-unsplash.jpg', "heading":'Some heading','url': '/'},
+    {"src":'/highlights/george-bale-P8UP7ixvglg-unsplash.jpg', "heading":'Some heading','url': '/'},
+    {"src":'/highlights/steve-johnson-y-l0g1pJtYE-unsplash.jpg', "heading":'Some heading','url': '/'},
+    {"src":'/highlights/venti-views-Tcd_UOjm5cg-unsplash.jpg', "heading":'Some heading','url': '/'}
 ];
 
 interface HighlightsProps {
