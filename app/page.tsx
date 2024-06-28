@@ -8,7 +8,7 @@ import HeroVideo from './ui/HeroVideo';
 
 export default function Page() {
   return (
-    <main className="pt-20 flex flex-col min-h-screen">
+    <main className="pt-20 flex flex-col min-h-screen gap-10">
       <Header />
       <HeroVideo />
       <Highlights />
