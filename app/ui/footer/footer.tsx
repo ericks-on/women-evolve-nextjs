@@ -1,6 +1,6 @@
 import React from 'react';
 import Link from 'next/link';
-import SocialIcons from '../icons/social-icons';
+import SocialIcons from '@/app/ui/icons/social-icons';
 
 const Footer = () => {
   return (

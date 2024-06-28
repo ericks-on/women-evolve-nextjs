@@ -19,7 +19,7 @@ highlights: Highlight[];
 export default function Highlights() {
     return(
         <div
-            className=" flex flex-col gap-1 md:flex-row justify-evenly"
+            className=" h-auto flex flex-col gap-1 md:flex-row justify-evenly"
             >
             {highlights.map((highlight) => {
                 return(
